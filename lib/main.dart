@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_day_1/pages/Home_page.dart';
 import 'package:flutter_day_1/pages/Image.dart';
+import 'package:flutter_day_1/pages/LoginPage.dart';
+import 'package:flutter_day_1/pages/Practice_Login_page.dart';
+import 'package:flutter_day_1/pages/Sign_up_page.dart';
+import 'package:flutter_day_1/pages/day3.dart';
+import 'package:flutter_day_1/pages/day4.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Image_Page(),
+      home: Sign_up_page(),
     );
   }
 }
